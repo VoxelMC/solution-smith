@@ -1,0 +1,20 @@
+{
+	"name": "ana-program",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"run": "node index.js",
+		"encode": "node src/util/encodeCommand.js",
+		"addtest": "node src/util/addProblem.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "module",
+	"dependencies": {
+		"destr": "^2.0.2",
+		"magicast": "^0.3.2"
+	}
+}
